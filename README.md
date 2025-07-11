@@ -11,7 +11,7 @@
   <p align="center">
     A dynamic web application that helps users discover their next learning path in technology 🎯
     <br />
-    <a href="#demo">View Demo</a>
+    <a href="https://what-to-do-next-olive.vercel.app/">View Demo</a>
     
   </p>
 </div>
