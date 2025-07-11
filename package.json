@@ -22,9 +22,15 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+      "react-app"
+    ],
+    "rules": {
+      "no-unused-vars": "warn",
+      "no-unused-expressions": "error",
+      "array-callback-return": "error",
+      "no-labels": "error",
+      "no-duplicate-case": "error"
+    }
   },
   "browserslist": {
     "production": [
@@ -37,5 +43,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "eslint-config-react-app": "^7.0.1"
   }
 }

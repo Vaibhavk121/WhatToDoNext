@@ -168,24 +168,14 @@ h6 {
 
 
     @keyframes landing-title-hover {
-        from {}
-
-        to {}
-
         0% {
-            transform: translateY(0) rotate(var(--heading-tilt)) skew(var(--skew-tilt))
+            transform: translateY(0);
         }
-
-        33% {
-            transform: translateY(10px) rotate(var(--heading-tilt))skew(var(--skew-tilt))
+        50% {
+            transform: translateY(-10px);
         }
-
-        66% {
-            transform: translateY(-10px) rotate(var(--heading-tilt))skew(var(--skew-tilt))
-        }
-
         100% {
-            transform: translateY(-1px) rotate(var(--heading-tilt))skew(var(--skew-tilt))
+            transform: translateY(0);
         }
     }
 
@@ -511,13 +501,3 @@ row-gap: 2rem;
         font-family: "Anonymous Pro"
     }
 }
-
-// @keyframes buttondisappear {
-//     from {}
-// }
-
-// .button-disappear {}
-
-// .title-heading-disappear {}
-
-// .container-disappear {}
